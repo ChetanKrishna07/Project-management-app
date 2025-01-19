@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const { log } = require('wd/lib/commands')
 
 const connectDB = async () => {
     console.log("Connecting to mongoDB");
